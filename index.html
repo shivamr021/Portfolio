@@ -1,0 +1,241 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shivam Rathod - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;family=Playwrite+IS:wght@100..400&amp;display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <link rel="shortcut icon" href="./images/portfolio.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="name"> SHIVAM <span class="surname"> Rathod </span> </div>
+
+        <ul class="nav-links">
+            <li><a href="#home"> HOME </a></li>
+            <li><a href="#about"> ABOUT </a></li>
+            <li><a href="#work"> WORK </a></li>
+            <li><a href="#contact"> CONTACT</a></li>
+        </ul>
+    </div>
+
+    <div class="wrapper">
+        <div class="hero-section flex" id="home">
+            <div class="hero-section-desc">
+                <h1> Hi , <br> My name is <span class="hero-section-name"> Shivam </span> </h1>
+                <p class="hero-section-p"> I'm <span id="text">Writer</span><span class="typed-cursor" aria-hidden="true">|</span> </p>
+                <p class="hero-section-description">&amp; a strong foundation in both
+                    <span id="tech"> front-end </span><br> and <span id="tech"> back-end </span> technologies.
+                </p>
+                <button class="explore-btn"><i class="fa-solid fa-compass  explore-compass"></i> Explore</button>
+                <button class="get-in-touch-btn"> <a href="#contact"> Get in touch </a></button>
+            </div>
+            <div class="image">
+                <div class="dot-grid"></div>
+                <img src="./images/profile-pic.jpg" class="hero-profile-img">
+            </div>
+        </div>
+
+
+
+        <div class="skill-section">
+            <h1 class="skill-section-heading">Skills</h1>
+            <div class="skill-section-desc flex">
+                <h2 class="frontend-part tab active-tab" data-target="skill-frontend">Frontend</h2>
+                <h2 class="backend-part tab" data-target="skill-backend">Backend &amp; Database</h2>
+                <h2 class="other-part tab" data-target="skill-other">Other Tools</h2>
+            </div>
+
+            <div class="skills-container">
+                <div class="skill-frontend flex">
+                    <div class="flex skill">
+                        <h4>HTML</h4>
+                        <img src="./images/frontend/html.webp" alt="HTML">
+                    </div>
+                    <div class="flex skill">
+                        <h4>CSS</h4>
+                        <img src="./images/frontend/css.webp" alt="CSS">
+                    </div>
+                    <div class="flex skill">
+                        <h4>JavaScript</h4>
+                        <img src="./images/frontend/Js.webp" alt="JavaScript">
+                    </div>
+                    <div class="flex skill">
+                        <h4>Bootstrap</h4>
+                        <img src="./images/bootstrap.webp" alt="Bootstrap">
+                    </div>
+                </div>
+
+                <div class="skill-backend flex active">
+                    <div class="flex skill">
+                        <h4>Django</h4>
+                        <img src="./images/backend/django.png" alt="Node.js">
+                    </div>
+                    <div class="flex skill">
+                        <h4>PostgreSQL</h4>
+                        <img src="./images/backend/postgreSQL.png" alt="PostgreSQL">
+                    </div>
+                </div>
+
+                <div class="skill-other flex active">
+                    <div class="flex skill">
+                        <h4>Git &amp; Github</h4>
+                        <img src="./images/github.webp" alt="GitHub">
+                    </div>
+                    <div class="flex skill">
+                        <h4>Canva</h4>
+                        <img src="./images/canva.png" alt="Canva">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="project-section" id="work">
+            <h1 class="project-section-heading">Projects</h1>
+
+            <div class="carousel">
+                <div class="carousel-item">
+
+                    <div class="project-card">
+                        <img src="./images/django-calculator.png" class="project-img" alt="Tic Tac Toe Game" loading="lazy">
+                        <div class="project-content">
+                            <h2>Django Calculator</h2>
+                            <p class="project-content-desc">
+                                A Django-based calculator app with basic arithmetic functions and a simple user interface.
+                            </p>
+                            <h3>Developed with:</h3>
+                            <ul class="project-techno">
+                                <li class="django">Django</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="https://github.com/shivamr021/Django-Calculator" class="github-link" target="_blank">
+                                    <img src="./images/github.webp" alt="GitHub">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="./images/bank_account_bank_management_system.png" class="project-img" alt="Bank Account Management System" loading="lazy">
+                        <div class="project-content">
+                            <h2>Bank Account Management System</h2>
+                            <p class="project-content-desc">
+                                Simple C++ application for managing savings and current accounts.
+                            </p>
+                            <h3>Developed with:</h3>
+                            <ul class="project-techno">
+                                <li class="cpp">C++</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="https://github.com/shivamr021/bank-account-management-system" class="github-link" target="_blank">
+                                    <img src="./images/github.webp" alt="GitHub">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="carousel-item">
+                    <div class="project-card">
+                        <img src="./images/todo_list.png" class="project-img" alt="ToDo List" loading="lazy">
+                        <div class="project-content">
+                            <h2>ToDo List</h2>
+                            <p class="project-content-desc">
+                                This project is a Python ToDo List app for managing tasks with features like add, remove, view, save, load, and append.
+                            </p>
+                            <h3>Developed with:</h3>
+                            <ul class="project-techno">
+                                <li class="python">Python</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="https://github.com/shivamr021/ToDo-List" class="github-link" target="_blank">
+                                    <img src="./images/github.webp" alt="GitHub">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="./images/rock_paper_scissors_game.png" class="project-img" alt="Rock Paper Scissors" loading="lazy">
+                        <div class="project-content">
+                            <h2>Rock Paper Scissors</h2>
+                            <p class="project-content-desc">
+                                A Python implementation of Rock-Paper-Scissors, allowing users to play against the computer with input validation and multiple rounds.
+                            </p>
+                            <h3>Developed with:</h3>
+                            <ul class="project-techno">
+                                <li class="python">Python</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="https://github.com/shivamr021/rock-paper-scissors" class="github-link" target="_blank">
+                                    <img src="./images/github.webp" alt="GitHub">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="footer flex" id="contact">
+        <div class="footer-left">
+            <div class="name">SHIVAM <span class="surname">Rathod</span></div>
+            <p>© 2025 Shivam Rathod. All rights reserved.</p>
+        </div>
+        <div class="footer-right">
+            <a href="https://www.linkedin.com/in/shivamrathod021/" target="_blank" class="social-link">
+                <img src="./images/linkedIN.webp" alt="LinkedIn" class="social-icon">
+            </a>
+            <a href="https://github.com/shivamr021" target="_blank" class="social-link">
+                <img src="./images/github.webp" alt="GitHub" class="social-icon">
+            </a>
+            <a href="https://leetcode.com/shivam021" target="_blank" class="social-link">
+                <img src="./images/leetcode.webp" alt="LeetCode" class="social-icon">
+            </a>
+            <a href="https://www.hackerrank.com/profile/shivamrathod145" target="_blank" class="social-link">
+                <img src="images/hackerrank.png" alt="Hackerrank" class="social-icon">
+            </a>
+            <a href="https://www.credly.com/users/shivamrathod021/" target="_blank" class="social-link">
+                <img src="./images/credly.png" alt="GitHub" class="social-icon">
+            </a>
+        </div>
+    </footer>
+
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script><style type="text/css" data-typed-js-css="true">
+        .typed-cursor{
+          opacity: 1;
+        }
+        .typed-cursor.typed-cursor--blink{
+          animation: typedjsBlink 0.7s infinite;
+          -webkit-animation: typedjsBlink 0.7s infinite;
+                  animation: typedjsBlink 0.7s infinite;
+        }
+        @keyframes typedjsBlink{
+          50% { opacity: 0.0; }
+        }
+        @-webkit-keyframes typedjsBlink{
+          0% { opacity: 1; }
+          50% { opacity: 0.0; }
+          100% { opacity: 1; }
+        }
+      </style>
+
+</body>
+</html>
