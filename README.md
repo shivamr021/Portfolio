@@ -47,4 +47,4 @@ To run the portfolio locally, follow these steps:
 - **Fonts**: [Google Fonts](https://fonts.google.com/)
 - **Icons**: [Font Awesome](https://fontawesome.com/)
 
-
+This project was made during one of the GDG sessions led by our web development lead Saara Khan. I would like to thank her for her guidance and support. You can find her on GitHub: [Saara Khan](https://github.com/saarakhan).
